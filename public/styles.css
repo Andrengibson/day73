@@ -1,0 +1,38 @@
+ .odd {
+  background:rgba(51, 170, 51, .7);
+  border-top-style:solid;
+  border-bottom-style:none;
+  border-padding-bottom:5px;
+    border-left-style: solid;
+      border-right-style: solid;
+        height: 50px;
+        width: 45%;
+        float: left;
+
+    }
+
+    .even {
+                height: 50px;
+         background:rgba(255,204,255,0.7);
+   border-top-style:solid;
+   border-padding-top:5px;
+   border-bottom-style:none;
+       border-left-style: solid;
+      border-right-style: solid;
+        width: 45%;
+        float: right;
+
+    }
+
+    input {
+        /*   display:none; */
+        /*   visibility:hidden; */
+    }
+
+    .correct {
+        background-color: #00DD00;
+    }
+
+    .incorrect {
+        background-color: red;
+    }
